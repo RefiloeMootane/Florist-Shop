@@ -1,4 +1,4 @@
-<style>
+
 img {
   float: right;
   border: 1px dotted black;
@@ -33,6 +33,11 @@ li a:hover {
 body{
 background: linear-gradient(transparent 40%,lightgray 80%) no-repeat;
 }
+p.a {
+  font: 20px Algerian, sans-serif;
+}
 
+p.b {
+  font: italic bold 12px/30px Georgia, serif;
 
-</style>
+}
