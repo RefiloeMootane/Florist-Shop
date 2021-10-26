@@ -201,7 +201,7 @@ body {
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1;
   width: 100%;
-  padding: 100px;
+  padding: 250px;
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -227,7 +227,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   position: fixed;
   bottom: 0;
   right: 15px;
-  border: 3px solid #f1f1f1;
+   border: 3px solid #f1f1f1;
   z-index: 9;
 }
 
@@ -273,4 +273,18 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  background-color: lightgray;
+  color: white;
+  padding-left: 800px;
+  padding-right: 800px;
 }
