@@ -57,18 +57,33 @@ background-color: linear-gradient(transparent 40%,violet 80%) no-repeat;
 
 </p>
 <center
-<b></b><h1>Give Us FeedBack Here</h1><b></b>
+<b></b><h1>Contact Form</h1><b></b>
 </center>
 <br>
-<form action="welcome.php" method="post">
-  Name: <input type="text" name="name"><br>
-  <br>
-  E-mail: <input type="text" name="email"><br>
-  <br>
-  <input type="submit">
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="Email" placeholder="Email..">
+
+    <label for="province">PROVINCE</label>
+    <select id="province" name="country">
+      <option value="limpopo">Limpopo</option>
+      <option value="gauteng">Gauteng</option>
+      <option value="kzn">KZN</option>
+    </select>
+
+    <label for="comment">Please Comment</label>
+    <textarea id="subject" name="Comment" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
   </form>
-
-
+</div>
 
 </body>
 
